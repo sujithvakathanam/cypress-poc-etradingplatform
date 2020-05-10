@@ -235,7 +235,7 @@ module.exports = {
     'multiline-ternary'       : ['error', 'never'],
     'new-cap'                 : ['error', {
       newIsCap   : true,
-      capIsNew   : true,
+      capIsNew   : false,
       properties : true
     }],
     'new-parens'               : 2,
