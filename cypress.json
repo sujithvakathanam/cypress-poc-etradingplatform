@@ -11,7 +11,5 @@
   "requestTimeout": 15000,
   "responseTimeout": 15000,
   "video": false,
-  "failOnStatusCode" : false,
-  "ignoreTestFiles": ["*.js", "*.md"],
-  "testFiles": "**/*.feature"
+  "failOnStatusCode" : false
 }

@@ -15,7 +15,7 @@ Feature: login to Application
 
     Scenario: Invalid login
       Given I navigate to login page
-      When I sign in with valid "xxx@dummy" and "xxxxx"
+      When I sign in with valid "xxxx@dummy" and "xxxxx"
       Then I should be shown an error message
 
 
