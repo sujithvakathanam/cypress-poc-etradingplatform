@@ -2,6 +2,8 @@
 * This project is my attempt to learn the cypress tools and its functionalities inorder to automate the testing of etoro trading platform
 * In each of the spec files(tests), tried to cover the cypress tricks and tips
 * Page object pattern is used in this test framework
+* Also added Cucumber BDD tests to prove the integration of Cucumber with cypress
+* Implemented Docker functionality to run cypress tests in Docker containers
 
 # How to run the tests?
 * `npm install`
