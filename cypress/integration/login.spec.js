@@ -6,7 +6,7 @@ context('Login Functionality', () => {
   });
 
   describe('Profile Assertions', () => {
-    it.only('.should()- Login with valid credentials', () => {
+    it('.should()- Login with valid credentials', () => {
       const login = new LoginPage();
       login.pageHasLoaded(login.txtboxUserName);
       login.loginAsUser('mammachetorro@gmail.com', 'Goalburn');
@@ -38,6 +38,7 @@ context('Login Functionality', () => {
 
     it('.should() - Login with Custom Commands ', () => {
       cy.login('mammachetorro@gmail.com', 'Goalburn');
+      cy.matchImageSnapshot();
     });
   });
 });

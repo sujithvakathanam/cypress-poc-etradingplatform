@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:tests": "cypress run"
+    "cy:run-tests": "cypress run",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true",
+    "cy:percy": "percy exec -- cypress run"
   },
   "keywords": [
     "Cypress",
@@ -15,8 +17,10 @@
   "author": "Sujith",
   "license": "ISC",
   "dependencies": {
+    "@percy/cypress": "^2.3.1",
     "cypress": "^4.5.0",
-    "cypress-cucumber-preprocessor": "^2.3.1"
+    "cypress-cucumber-preprocessor": "^2.3.1",
+    "cypress-image-snapshot": "^3.1.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.30.0",
