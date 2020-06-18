@@ -12,5 +12,6 @@
   "responseTimeout": 15000,
   "video": false,
   "failOnStatusCode": false,
-  "projectId": "vkejqm"
+  "projectId": "vkejqm",
+  "APPID" : "c825951bd8a11a053cb91a6eb13d3200"
 }
