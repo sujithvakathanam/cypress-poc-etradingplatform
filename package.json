@@ -18,8 +18,8 @@
   "author": "Sujith",
   "license": "ISC",
   "dependencies": {
-    "@percy/cypress": "^2.3.1",
-    "cypress": "^4.5.0",
+    "@percy/cypress": "^3.1.7",
+    "cypress": "^15.10.0",
     "cypress-cucumber-preprocessor": "^2.3.1",
     "cypress-image-snapshot": "^3.1.1"
   },
